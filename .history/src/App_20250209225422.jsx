@@ -8,7 +8,6 @@ const App = () => {
         <>
             <MainLayout>
                 <Header />
-                Content
                 <Footer />
             </MainLayout>
         </>
