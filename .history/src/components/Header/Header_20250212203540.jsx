@@ -1,0 +1,24 @@
+import BoxIcon from './Boxicon/Boxicon';
+import { dataBoxIcon } from './constant';
+import styles from './styles.modules.scss';
+
+const Header = () => {
+    const { containerBoxIcon } = styles;
+    return (
+        <div>
+            <div>
+                <div>
+                    {dataBoxIcon.map(item => {
+                        // eslint-disable-next-line react/jsx-key
+                        return <BoxIcon type={item.type} href={item.href} />;
+                    })}
+                </div>
+                <div></div>
+            </div>
+            <div></div>
+            <div></div>
+        </div>
+    );
+};
+
+export default Header;

@@ -1,0 +1,15 @@
+@import '@styles/mixin.module.scss';
+@import '@styles/variable.module.scss';
+.containerHeader {
+    display: flex;
+    align-items: center;
+}
+
+.boxIcon{
+    @include radius_common(50%);
+    @include flex_box_custom
+    background-color: $primary_color;
+    width: 26px;
+    height: 26px;
+
+}

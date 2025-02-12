@@ -1,0 +1,12 @@
+@import 'styles/mixin.module.scss';
+.containerHeader {
+    display: flex;
+    align-items: center;
+}
+
+.boxIcon{
+    @include radius_common(50%);
+    width: 26px;
+    height: 26px;
+
+}
