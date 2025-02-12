@@ -2,9 +2,7 @@
     border-radius: $radius;
 }
 
-@mixin btn($w, $h,  $radius, $color: #fff) {
-    outline: none;
-    border: 1px solid #e1e1e1;
+@mixin bt($w, $h, $color, $radius) {
     width: $w;
     height: $h;
     background-color: $color;
