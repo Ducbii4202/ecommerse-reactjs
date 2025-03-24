@@ -8,15 +8,10 @@ import heartIcon from '@icons/svgs/heartIcon.svg';
 import cartIcon from '@icons/svgs/cartIcon.svg';
 
 const Header = () => {
-    const {
-        containerBoxIcon,
-        containerMenu,
-        containerHeader,
-        containerBox,
-        container
-    } = styles;
+    const { containerBoxIcon, containerMenu, containerHeader, containerBox } =
+        styles;
     return (
-        <div className={container}>
+        <div>
             <div className={containerHeader}>
                 <div className={containerBox}>
                     <div className={containerBoxIcon}>

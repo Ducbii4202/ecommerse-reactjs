@@ -11,7 +11,7 @@
     width: 1250px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 83px;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .containerMenu {
-    @include flex_box_custom(center, center, 40px);
+    @include flex_box_custom(center, center, 20px);
 }
 
 .boxIcon {
@@ -37,9 +37,7 @@
 
 .menu{
     cursor: pointer;
-    padding-top: 9px;
-    font-size: 15px;
-    color: $primary_color;
+    padding-top: 10px;
 }
 
 .menu::after {

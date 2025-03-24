@@ -16,7 +16,7 @@ const Header = () => {
         container
     } = styles;
     return (
-        <div className={container}>
+        <div>
             <div className={containerHeader}>
                 <div className={containerBox}>
                     <div className={containerBoxIcon}>
