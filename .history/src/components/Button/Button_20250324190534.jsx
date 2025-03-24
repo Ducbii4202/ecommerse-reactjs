@@ -1,5 +1,6 @@
+import React from 'react';
 import styles from './styles.module.scss';
-const MyButton = () => {
+const Button = () => {
     return (
         <div>
             <button className={styles.btn}>Click me</button>
@@ -7,4 +8,4 @@ const MyButton = () => {
     );
 };
 
-export default MyButton;
+export default Button;
